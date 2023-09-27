@@ -1,13 +1,22 @@
 
-import './App.css';
+import { Header } from "./components/header";
+import { Hero } from "./components/hero";
+import { Skills } from "./components/skills";
+import { Experiance } from "./components/experiance";
+import { Portfolio } from "./components/portfolio";
+import { Refrences } from "./components/references";
+import { Contact } from "./components/contact";
+
 
 function App() {
-  return (
-    <div className="App">
-     <h1>Hello Open SGF!</h1> 
-     <h2>Please give me a job</h2>
-     <h2>Call Levi Zitting</h2>
-     <h2>417-869-4926</h2>
+  return ( <div>
+    <Header />
+    <Hero />
+    <Skills />
+    <Experiance />
+    <Portfolio />
+    <Refrences />
+    <Contact />
     </div>
   );
 }
