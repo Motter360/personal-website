@@ -1,9 +1,9 @@
 import React from 'react';
 
-export function AboutMe(){
+export function Intro(){
     return(
         <div></div>
     )
 }
 
-export default AboutMe;
+export default Intro;

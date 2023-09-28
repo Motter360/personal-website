@@ -1,9 +1,15 @@
-import React from 'react';
+import React from "react";
 
-export function Header(){
+import Navbar from "./navbar";
+import Intro from "./intro";
+
+function Header(){
+    return (
     <div>
-    <h1>I am Here</h1>
-</div>
+        <Navbar />
+        <Intro />
+    </div>
+    )
 }
 
 export default Header;
