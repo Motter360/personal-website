@@ -1,10 +1,10 @@
 import React from "react";
 
-import Skills from "./skills";
-import AboutMe from "./aboutMe";
-import Experience from "./experience";
-import Portfolio from "./portfolio";
-import Refrences from "./references";
+import Skills from "./components/skills";
+import AboutMe from "./components/aboutMe";
+import Experience from "./components/experience";
+import Portfolio from "./components/portfolio";
+import Refrences from "./components/references";
 
 function Body(){
     return(
