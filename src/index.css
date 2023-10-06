@@ -9,6 +9,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #030712;
 }
 
 code {
@@ -17,15 +19,35 @@ code {
 }
 
 .nav-bar {
-  padding: 1 rem;
+  height: 6.8rem;
+
+  padding: 1.6rem;
   display: flex;
   justify-content: space-between;
-} 
+  align-items: center;
 
-.nav-bar img{
-  width: 1 rem;
-  height: 1 rem;
+  border: 2px red solid;
+} 
+.logo{
+  color: var(--gray-dark-900, #F9FAFB);
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 120% */
+  letter-spacing: -0.6px; 
 }
+
+.menu-button{
+  border: none ;
+  /* background-color: #030712; */
+
+  width: 3rem;
+  height: 3rem;
+}
+
+
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { }

@@ -14,8 +14,11 @@ const logo = "<TH />"
         <div>
             <nav className='nav-bar'>
                 <p className='logo'>{logo}</p>
-                <button onClick={handleClick}><img src=".//assets/hamburgericon.svg" alt=""/></button>
+                <button className="menu-button" onClick={handleClick}>
+                   
+                </button>
             </nav>
+            <img src="menu-icon-dm.png" alt=""/>
         </div>
     )
 }
