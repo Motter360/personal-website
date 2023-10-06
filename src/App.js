@@ -1,22 +1,25 @@
+import React, {useState} from "react";
 
-import { Header } from "./components/header";
-import { Hero } from "./components/hero";
-import { Skills } from "./components/skills";
-import { Experiance } from "./components/experiance";
-import { Portfolio } from "./components/portfolio";
-import { Refrences } from "./components/references";
-import { Contact } from "./components/contact";
-
+import Header from "./sections/header";
+import Body from "./sections/body";
+import Footer from "./sections/footer";
 
 function App() {
-  return ( <div>
-    <Header />
-    <Hero />
-    <Skills />
-    <Experiance />
-    <Portfolio />
-    <Refrences />
-    <Contact />
+
+  const [showLinks, setShowLinks] = useState(false)
+
+  
+  
+
+
+  return ( 
+    <div>
+      <Header 
+        displayLink= {showLinks}
+        handleClick= {() => setShowLinks(()=> !showLinks)}
+      />
+      <Body />
+      <Footer /> 
     </div>
   );
 }

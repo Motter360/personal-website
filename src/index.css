@@ -1,3 +1,7 @@
+html{
+  font-size: 10px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,6 +14,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-bar {
+  padding: 1 rem;
+  display: flex;
+  justify-content: space-between;
+} 
+
+.nav-bar img{
+  width: 1 rem;
+  height: 1 rem;
 }
 
 /* Medium devices (tablets, 768px and up) */
