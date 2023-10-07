@@ -3,16 +3,10 @@ import React from "react";
 import Navbar from "./components/navbar";
 import Intro from "./components/intro";
 
-function Header(props){
-    const displayLinks = props.displayLinks
-    const handleClick = props.handleClick
-
+function Header(){
     return (
     <div>
-        <Navbar 
-        displayLinks= {displayLinks}
-        handleClick= {() => handleClick()}
-        />
+        <Navbar/>
         <Intro />
     </div>
     )

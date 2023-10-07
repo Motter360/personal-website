@@ -1,12 +1,11 @@
 import React from 'react';
 
+export function Navbar(){
 
+const [showLinks, setShowLinks] = React.useState(false)
 
-export function Navbar(props){
-
-const displayLinks = props.displayLinks
-const handleClick = props.handleClick
-
+const handleClick = () => setShowLinks((oldData) => !oldData)
+const toggle = showLinks ? " " : "hide"
 
 const logo = "<TH />"
 
@@ -15,10 +14,20 @@ const logo = "<TH />"
             <nav className='nav-bar'>
                 <p className='logo'>{logo}</p>
                 <button className="menu-button" onClick={handleClick}>
-                   
+                <img src="./assets/menu-icon-dm.png" alt="Menu"/>
                 </button>
             </nav>
-            <img src="menu-icon-dm.png" alt=""/>
+            <div className={toggle}>
+                <ul className='menu'>
+                    <li className='links'>About</li>
+                    <li className='links'>Work</li>
+                    <li className='links'>Testimonials</li>
+                    <li className='links'>Contact</li>
+                </ul>
+                <div className='download'>
+                    <button>Download CV</button>
+                </div>
+            </div>
         </div>
     )
 }

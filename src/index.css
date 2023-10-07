@@ -11,6 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-color: #030712;
+  color: var(--gray-dark-900, #F9FAFB);
 }
 
 code {
@@ -22,12 +23,13 @@ code {
   height: 6.8rem;
 
   padding: 1.6rem;
+  margin: 0px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  border: 2px red solid;
 } 
+
 .logo{
   color: var(--gray-dark-900, #F9FAFB);
   text-align: center;
@@ -40,14 +42,63 @@ code {
 }
 
 .menu-button{
-  border: none ;
-  /* background-color: #030712; */
+  border: 1px white solid ;
+  background-color: #030712;
 
   width: 3rem;
   height: 3rem;
+
+  cursor:pointer;
 }
 
+.menu-button img{
+  height: 3rem;
+  width: 3rem;
 
+  color: #F9FAFB;
+}
+
+.hide {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 1.6rem;
+  margin: 0px;
+  height: auto;
+
+  font-size: 1.6rem;
+
+  border-top: 1px #1F2937 solid;
+  border-bottom: 1px #1F2937 solid;
+}
+
+.links{
+  margin-bottom: 1rem  ;
+}
+
+.download{
+  padding: 1.6rem;
+  border-bottom: 1px #1F2937 solid;
+}
+
+.download button{
+  border: none;
+  border-radius: 2rem;
+
+  margin: 0px auto 0px auto;
+  padding: .5rem 0px;
+
+  color: #111827;
+  background-color: #F9FAFB;
+
+  width:  100%;
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { }
