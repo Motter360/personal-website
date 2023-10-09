@@ -1,23 +1,13 @@
-import React, {useState} from "react";
+import React from "react";
 
 import Header from "./sections/header";
 import Body from "./sections/body";
 import Footer from "./sections/footer";
 
 function App() {
-
-  const [showLinks, setShowLinks] = useState(false)
-
-  
-  
-
-
   return ( 
     <div>
-      <Header 
-        displayLink= {showLinks}
-        handleClick= {() => setShowLinks(()=> !showLinks)}
-      />
+      <Header />
       <Body />
       <Footer /> 
     </div>
