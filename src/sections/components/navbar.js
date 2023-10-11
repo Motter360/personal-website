@@ -14,7 +14,7 @@ const logo = "<TH />"
             <nav className='nav-bar'>
                 <p className='logo'>{logo}</p>
                 <button className="menu-button" onClick={handleClick}>
-                <img src="./assets/menu-icon-dm.png" alt="Menu"/>
+                <img src="/menu-icon-dm.png" alt="Menu"/>
                 </button>
             </nav>
             <div className={toggle}>
