@@ -100,6 +100,25 @@ code {
   width:  100%;
 }
 
+.intro{
+  margin: 6.4rem 1.6rem;
+}
+
+.headshot img{
+  width: 24rem;
+  height: 28rem;
+
+  border: 1px white solid;
+
+  display: block;
+  margin: 0px auto;
+  width: 60%;
+  height: auto;
+}
+
+
+ 
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { }
 
