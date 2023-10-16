@@ -197,23 +197,80 @@ p{
 }
 
 .socails{
-  width: 8rem;
+  width: 6rem;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .socails img{
-  width: 3.6rem;
-  height: 3.6rem;
-
   cursor:pointer;
 }
 
-.about-me{
-  
+.small {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.medium {
+  width: 4.1rem;
+  height: 4.1rem;
+}
+
+.about-me h3{
+  align-self: stretch;
+
+  color: var(--gray-dark-900, #F9FAFB);
+
+  font-family: Inter;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.2rem;
+  letter-spacing: -.048rem;
+}
+
+.bio p{
+  align-self: stretch;
+
+  color: var(--gray-dark-600, #D1D5DB);
+
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+
+  margin-bottom: 1.6rem;
 }
 
 
+.section-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1rem;
+  font-weight: 100;
+
+  width: 5rem;
+  height: 1rem;
+
+  padding: .4rem 2.0rem;
+  margin: 0px auto 2.4rem auto;
+
+  border-radius: 12px;
+  background: var(--gray-dark-200, #374151);
+}
+
+.fullbody {
+  display: block;
+
+  width: 18rem;
+  height: 32rem;
+
+  margin: 0px auto 6.8rem auto;
+}
  
 
 /* Medium devices (tablets, 768px and up) */

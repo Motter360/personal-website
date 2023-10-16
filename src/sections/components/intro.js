@@ -28,10 +28,10 @@ export function Intro(){
             </div>
             <div className='socails'>
                 <a target="_blank" href='https://github.com/Motter360' rel="noopener noreferrer">
-                    <img className="github" src="/github-icon-dm.png" alt="github logo and link" />
+                    <img className="github medium" src="/github-icon-dm.png" alt="github logo and link" />
                 </a>
                 <a target="_blank" href='https://www.linkedin.com/in/thomas-hammon-063366290' rel="noopener noreferrer">
-                    <img className="linkedin "src="/linkedin-icon-dm.png" alt="linked in logo and link" />
+                    <img className="linkedin small"src="/linkedin-icon-dm.png" alt="linked in logo and link" />
                 </a>
             </div>
         </div>
