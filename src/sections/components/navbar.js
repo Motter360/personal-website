@@ -11,20 +11,20 @@ const logo = "<TH />"
 
     return(
         <div>
-            <nav className='nav-bar'>
+            <nav className='nav-bar dm-shade-1'>
                 <p className='logo'>{logo}</p>
                 <button className="menu-button" onClick={handleClick}>
-                <img src="./assets/menu-icon-dm.png" alt="Menu"/>
+                <img src="/menu-icon-dm.png" alt="Menu"/>
                 </button>
             </nav>
             <div className={toggle}>
-                <ul className='menu'>
+                <ul className='menu dm-shade-1'>
                     <li className='links'>About</li>
                     <li className='links'>Work</li>
                     <li className='links'>Testimonials</li>
                     <li className='links'>Contact</li>
                 </ul>
-                <div className='download'>
+                <div className='download dm-shade-1'>
                     <button>Download CV</button>
                 </div>
             </div>
