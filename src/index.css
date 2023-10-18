@@ -147,19 +147,9 @@ p{
   width: 60%;
   height: auto;
 
-  
-}
-
-.photo-back {
-  position: absolute;
-  top: 1.5rem;
-  left: 5.2rem;
-
-  width: 68.5%;
-  height: 20rem;
-  background-color: #374151;
-
-  z-index: -1;
+  box-shadow: 
+  1.2rem 1.2rem 0rem #374151,
+  -1.2rem 1.2rem 0rem #374151
 }
 
 .location{
@@ -270,6 +260,11 @@ p{
   height: 32rem;
 
   margin: 0px auto 6.8rem auto;
+  border: .5rem #111827 solid;
+
+  box-shadow: 
+  1.2rem 1.2rem 0rem #374151,
+  -1.2rem 1.2rem 0rem #374151
 }
  
 
