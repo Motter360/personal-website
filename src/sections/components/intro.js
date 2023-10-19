@@ -18,11 +18,15 @@ export function Intro(){
             </p>
             <div className='location'>
                 <div className='box'>
-                    <img src="/location-icon-dm.png" alt="" />
+                    <div className="container">
+                        <img src="/location-icon-dm.png" alt="" />
+                    </div>
                     <p> Missouri, USA</p>
                 </div>
                 <div className='box'>
-                    <div className='green-dot'></div>
+                    <div className="container">
+                        <div className='green-dot'></div>
+                    </div>
                     <p>Available for new projects</p>
                 </div>
             </div>

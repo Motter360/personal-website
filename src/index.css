@@ -22,6 +22,7 @@ p{
 }
 
 .section{
+  display: block;
   padding: 6.4rem 1.6rem;
 
   color: var(--gray-dark-900, #F9FAFB);
@@ -39,6 +40,12 @@ p{
 
 .dm-shade-2{
   background: var(--gray-dark-50, #111827);
+}
+
+.centered{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .nav-bar {
@@ -140,7 +147,7 @@ p{
 }
 
 .headshot img{
-  border: .5rem #030712 solid;
+  border: .75rem #030712 solid;
 
   display: block;
   margin: 0px auto;
@@ -148,8 +155,8 @@ p{
   height: auto;
 
   box-shadow: 
-  1.2rem 1.2rem 0rem #374151,
-  -1.2rem 1.2rem 0rem #374151
+  1.5rem 1.5rem 0rem #374151,
+  -1.5rem 1.5rem 0rem #374151
 }
 
 .location{
@@ -162,6 +169,16 @@ p{
 
 }
 
+.container{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
 .box {
   display: flex;
   align-items: center;
@@ -171,19 +188,16 @@ p{
   width: 2rem;
   height: 2rem;
 
-  padding-right: 1rem;
   margin: 0;
 }
 
 .green-dot{
-  width: 8px;
-  height: 8px;
+  width: .8rem;
+  height: .8rem;
   flex-shrink: 0;
 
   border-radius: 20px;
   background: var(--emerald-500, #10B981);
-
-  margin: 0px 1rem 0px .5rem;
 }
 
 .socails{
@@ -198,13 +212,13 @@ p{
 }
 
 .small {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .medium {
-  width: 4.1rem;
-  height: 4.1rem;
+  width: 3.6rem;
+  height: 3.6rem;
 }
 
 .about-me h3{
@@ -226,7 +240,7 @@ p{
   color: var(--gray-dark-600, #D1D5DB);
 
   font-family: Inter;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 400;
   line-height: 2.4rem;
@@ -243,7 +257,7 @@ p{
   font-size: 1rem;
   font-weight: 100;
 
-  width: 5rem;
+  width: fit-content;
   height: 1rem;
 
   padding: .4rem 2.0rem;
@@ -260,13 +274,43 @@ p{
   height: 32rem;
 
   margin: 0px auto 6.8rem auto;
-  border: .5rem #111827 solid;
+  border: .75rem #111827 solid;
 
   box-shadow: 
-  1.2rem 1.2rem 0rem #374151,
-  -1.2rem 1.2rem 0rem #374151
+  1.5rem 1.5rem 0rem #374151,
+  -1.5rem 1.5rem 0rem #374151
+}
+
+.reach-out{
+  max-width: 576px;
+  align-self: stretch;
+
+  color: var(--gray-dark-600, #D1D5DB);
+  text-align: center;
+
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.2rem;
+
+  margin-bottom: 2.8rem;
 }
  
+.contact-info{
+  color: var(--gray-dark-900, #F9FAFB);
+  text-align: center;
+  
+  width: fit-content;
+
+  /* Heading/H2/Semi Bold - Tablet & Mobile */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { }
