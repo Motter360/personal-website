@@ -32,7 +32,7 @@ export function AboutMe(){
                     unique set of people and communication skills that make 
                     me an excellent addition to your team!
                 </p>
-                <p>Finally, when I'm not working or pursuing a personal project,
+                <p id='final-say'>Finally, when I'm not working or pursuing a personal project,
                     you can find me grilling for my friends or with my nose 
                     stuck in a book. I believe a good work life balance is 
                     critical to being a top performing employee, and that proper 

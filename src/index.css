@@ -281,6 +281,10 @@ p{
   -1.5rem 1.5rem 0rem #374151
 }
 
+#final-say{
+  margin: 0;
+}
+
 .reach-out{
   max-width: 576px;
   align-self: stretch;
@@ -293,8 +297,6 @@ p{
   font-style: normal;
   font-weight: 400;
   line-height: 2.2rem;
-
-  margin-bottom: 2.8rem;
 }
  
 .contact-info{
@@ -310,6 +312,16 @@ p{
   font-weight: 600;
   line-height: 28px; /* 155.556% */
   letter-spacing: -0.36px;
+}
+
+.spacer{
+  margin: 2.8rem 0;
+}
+
+.together{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Medium devices (tablets, 768px and up) */
