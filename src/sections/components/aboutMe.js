@@ -2,7 +2,7 @@ import React from 'react';
 
 export function AboutMe(){
     return(
-        <div className='about-me section dm-shade-2'>
+        <div id="about-me" className='about-me section dm-shade-2'>
             <p className='section-title'>About Me</p>
             <img className="fullbody" src="/fullbody.jpg" alt="Thomas standing infront of the Manhattan skyline"/>
             <h3>Curious about me? Here you have it:</h3>

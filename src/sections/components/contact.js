@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Contact(){
     return(
-        <div className='contact section dm-shade-1'>
+        <div id="contact" className='contact section dm-shade-1'>
             <p className='section-title'>Get In Touch</p>
             <p className='reach-out'>What's next? Feel free to reach out 
                 to me if you're looking for a developer, 
@@ -12,12 +12,14 @@ export function Contact(){
                 <div className='centered'>
                     <img src="/mail.png" alt="Email Icon" className='small' />
                     <p className='contact-info'>Hammonthomas@gmail.com</p>
-                    <img src="/copy-paste.png" alt="Copy/Paste Icon" className='small' />
+                    <img src="/copy-paste.png" alt="Copy/Paste Icon" className='small copy-paste' onClick={() => {
+                     navigator.clipboard.writeText("Hammonthomas@gmail.com");}}/>
                 </div>
                 <div className='centered'>
                     <img src="/phone.png" alt="Phone Icon" className='small'/>
                     <p className='contact-info'>(417) 955-1731</p>
-                    <img src="/copy-paste.png" alt="Copy/Paste Icon" className='small' />
+                    <img src="/copy-paste.png" alt="Copy/Paste Icon" className='small copy-paste' onClick={() => {
+                    navigator.clipboard.writeText("(417) 955-1731");}}/>
                 </div>
             </div>
             <div>

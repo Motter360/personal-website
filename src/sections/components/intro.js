@@ -7,7 +7,6 @@ export function Intro(){
                 <img 
                 src="/Thomas_Hammon_Headshot_2.jpg"
                 alt="A photograph of Thomas smiling in front of the ocean." />
-                {/* <div className='photo-back'></div> */}
             </div>
             <h2 className='myName'>Hello, I'm Thomas 👋</h2>
             <p>I'm a self-taught front end web developer (React) 

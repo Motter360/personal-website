@@ -91,6 +91,10 @@ p{
   display: none;
 }
 
+.wide {
+  display: none;
+}
+
 .menu {
   display: flex;
   list-style: none;
@@ -105,6 +109,14 @@ p{
 
   border-top: 1px #1F2937 solid;
   border-bottom: 1px #1F2937 solid;
+}
+
+.menu a{
+  color: #D1D5DB;
+  text-decoration: none;
+
+  font-family: Inter;
+  font-style: normal;
 }
 
 .links{
@@ -126,7 +138,7 @@ p{
   color: #111827;
   background-color: #F9FAFB;
 
-  width:  100%;
+  width: 100%;
 }
 
 
@@ -314,6 +326,10 @@ p{
   letter-spacing: -0.36px;
 }
 
+.copy-paste{
+  cursor: pointer;
+}
+
 .spacer{
   margin: 2.8rem 0;
 }
@@ -328,7 +344,71 @@ p{
 @media (min-width: 768px) { }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) { 
+  .header{
+    padding: 1.6rem 8rem;
+  }
+
+  .menu-button{
+    display: none;
+  }
+
+  .wide{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-bar{
+    /* flex-direction: row;
+    justify-content: space-;
+    align-items: center; */
+
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+    padding: 1.6rem;
+    margin: 0px;
+    height: auto;
+
+    font-size: 1.6rem;
+
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 1px #1F2937 solid;
+  }
+
+  .menu li{
+    margin-left: 1rem;
+  }
+
+  .links{
+    margin: 0;
+  }
+
+  .download {
+    border: none;
+    padding: 0;
+    margin: 0 1rem;
+  }
+
+  .download button{
+    padding: .6rem 1.6rem;
+  }
+
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
