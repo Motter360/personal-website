@@ -2,7 +2,7 @@ import React from 'react';
 
 export function AboutMe(){
     return(
-        <div className='about-me section dm-shade-2'>
+        <div id="about-me" className='about-me section dm-shade-2'>
             <p className='section-title'>About Me</p>
             <img className="fullbody" src="/fullbody.jpg" alt="Thomas standing infront of the Manhattan skyline"/>
             <h3>Curious about me? Here you have it:</h3>
@@ -32,7 +32,7 @@ export function AboutMe(){
                     unique set of people and communication skills that make 
                     me an excellent addition to your team!
                 </p>
-                <p>Finally, when I'm not working or pursuing a personal project,
+                <p id='final-say'>Finally, when I'm not working or pursuing a personal project,
                     you can find me grilling for my friends or with my nose 
                     stuck in a book. I believe a good work life balance is 
                     critical to being a top performing employee, and that proper 

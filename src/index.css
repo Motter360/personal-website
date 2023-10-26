@@ -22,6 +22,7 @@ p{
 }
 
 .section{
+  display: block;
   padding: 6.4rem 1.6rem;
 
   color: var(--gray-dark-900, #F9FAFB);
@@ -39,6 +40,12 @@ p{
 
 .dm-shade-2{
   background: var(--gray-dark-50, #111827);
+}
+
+.centered{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .nav-bar {
@@ -84,6 +91,10 @@ p{
   display: none;
 }
 
+.wide {
+  display: none;
+}
+
 .menu {
   display: flex;
   list-style: none;
@@ -98,6 +109,14 @@ p{
 
   border-top: 1px #1F2937 solid;
   border-bottom: 1px #1F2937 solid;
+}
+
+.menu a{
+  color: #D1D5DB;
+  text-decoration: none;
+
+  font-family: Inter;
+  font-style: normal;
 }
 
 .links{
@@ -119,7 +138,7 @@ p{
   color: #111827;
   background-color: #F9FAFB;
 
-  width:  100%;
+  width: 100%;
 }
 
 
@@ -140,26 +159,16 @@ p{
 }
 
 .headshot img{
-  border: .5rem #030712 solid;
+  border: .75rem #030712 solid;
 
   display: block;
   margin: 0px auto;
   width: 60%;
   height: auto;
 
-  
-}
-
-.photo-back {
-  position: absolute;
-  top: 1.5rem;
-  left: 5.2rem;
-
-  width: 68.5%;
-  height: 20rem;
-  background-color: #374151;
-
-  z-index: -1;
+  box-shadow: 
+  1.5rem 1.5rem 0rem #374151,
+  -1.5rem 1.5rem 0rem #374151
 }
 
 .location{
@@ -172,6 +181,16 @@ p{
 
 }
 
+.container{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
 .box {
   display: flex;
   align-items: center;
@@ -181,19 +200,16 @@ p{
   width: 2rem;
   height: 2rem;
 
-  padding-right: 1rem;
   margin: 0;
 }
 
 .green-dot{
-  width: 8px;
-  height: 8px;
+  width: .8rem;
+  height: .8rem;
   flex-shrink: 0;
 
   border-radius: 20px;
   background: var(--emerald-500, #10B981);
-
-  margin: 0px 1rem 0px .5rem;
 }
 
 .socails{
@@ -208,13 +224,13 @@ p{
 }
 
 .small {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .medium {
-  width: 4.1rem;
-  height: 4.1rem;
+  width: 3.6rem;
+  height: 3.6rem;
 }
 
 .about-me h3{
@@ -236,7 +252,7 @@ p{
   color: var(--gray-dark-600, #D1D5DB);
 
   font-family: Inter;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 400;
   line-height: 2.4rem;
@@ -253,7 +269,7 @@ p{
   font-size: 1rem;
   font-weight: 100;
 
-  width: 5rem;
+  width: fit-content;
   height: 1rem;
 
   padding: .4rem 2.0rem;
@@ -270,14 +286,129 @@ p{
   height: 32rem;
 
   margin: 0px auto 6.8rem auto;
+  border: .75rem #111827 solid;
+
+  box-shadow: 
+  1.5rem 1.5rem 0rem #374151,
+  -1.5rem 1.5rem 0rem #374151
+}
+
+#final-say{
+  margin: 0;
+}
+
+.reach-out{
+  max-width: 576px;
+  align-self: stretch;
+
+  color: var(--gray-dark-600, #D1D5DB);
+  text-align: center;
+
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.2rem;
 }
  
+.contact-info{
+  color: var(--gray-dark-900, #F9FAFB);
+  text-align: center;
+  
+  width: fit-content;
+
+  /* Heading/H2/Semi Bold - Tablet & Mobile */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
+}
+
+.copy-paste{
+  cursor: pointer;
+}
+
+.spacer{
+  margin: 2.8rem 0;
+}
+
+.together{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) { 
+  .header{
+    padding: 1.6rem 8rem;
+  }
+
+  .menu-button{
+    display: none;
+  }
+
+  .wide{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-bar{
+    /* flex-direction: row;
+    justify-content: space-;
+    align-items: center; */
+
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+    padding: 1.6rem;
+    margin: 0px;
+    height: auto;
+
+    font-size: 1.6rem;
+
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 1px #1F2937 solid;
+  }
+
+  .menu li{
+    margin-left: 1rem;
+  }
+
+  .links{
+    margin: 0;
+  }
+
+  .download {
+    border: none;
+    padding: 0;
+    margin: 0 1rem;
+  }
+
+  .download button{
+    padding: .6rem 1.6rem;
+  }
+
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }

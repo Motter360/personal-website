@@ -9,27 +9,42 @@ const toggle = showLinks ? " " : "hide"
 
 const logo = "<TH />"
 
+function Options(props){
+
+
     return(
-        <div>
-            <nav className='nav-bar dm-shade-1'>
-                <p className='logo'>{logo}</p>
-                <button className="menu-button" onClick={handleClick}>
-                <img src="/menu-icon-dm.png" alt="Menu"/>
-                </button>
-            </nav>
-            <div className={toggle}>
-                <ul className='menu dm-shade-1'>
-                    <li className='links'>About</li>
-                    <li className='links'>Work</li>
-                    <li className='links'>Testimonials</li>
-                    <li className='links'>Contact</li>
-                </ul>
-                <div className='download dm-shade-1'>
-                    <button>Download CV</button>
+            <div className={props.designation}>
+                <div className='row'>
+                    <ul className='menu dm-shade-1'>
+                        <li className='links'><a href='#about-me'>About</a></li>
+                        <li className='links'><a href='#contact'>Contact</a></li>
+                    </ul>
+                    <div className='download dm-shade-1'>
+                        <button>Download CV</button>
+                    </div>
                 </div>
             </div>
-        </div>
     )
+}
+
+
+
+return(
+    <div className='header dm-shade-1'>
+        <nav className='nav-bar dm-shade-1'>
+            <p className='logo'>{logo}</p>
+            <button className="menu-button" onClick={handleClick}>
+            <img src="/menu-icon-dm.png" alt="Menu"/>
+            </button>
+            <Options 
+                designation="wide"
+            />
+        </nav>
+        <Options 
+            designation={toggle}
+        />
+    </div>
+)
 }
 
 export default Navbar;
