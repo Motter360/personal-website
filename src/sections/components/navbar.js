@@ -20,7 +20,7 @@ function Options(props){
                         <li className='links'><a href='#contact'>Contact</a></li>
                     </ul>
                     <div className='download dm-shade-1'>
-                        <button>Download CV</button>
+                        <a href="/Thomas_Hammon_CV.pdf" download={"Thomas Hammon CV"}>Download CV</a>
                     </div>
                 </div>
             </div>
