@@ -11,13 +11,6 @@ export function AboutMe(){
                     <div>   
                         <h3>Curious about me? Here you have it:</h3>
                         <div className='bio'>
-                            <p>I am a self taught front end web developer 
-                                with a passion for problem solving and teamwork. 
-                                I am looking to further expand my skills and make 
-                                valuable contributions in a team oriented environment. 
-                                Passion for the project, good communication, and 
-                                learning opportunities are important to me. 
-                            </p>
                             <p>I began my learning journey nearly a year and a half 
                                 ago, looking for a career path that was more engaging 
                                 and held better opportunities for growth. Since then, 
@@ -25,7 +18,11 @@ export function AboutMe(){
                                 numerous personal projects to improve my skills. I have 
                                 accomplished much in my personal time in addition to 
                                 a full time job, and I believe the next step in my path
-                                is an internship or similar entry level position.
+                                is an internship or similar entry level position. I am 
+                                looking to further expand my skills and make 
+                                valuable contributions in a team oriented environment. 
+                                Passion for the project, good communication, and 
+                                learning opportunities are important to me.
                             </p>
                             <p>My life philosophy has always been one of personal growth 
                                 and continuous improvement. I get excited at the possibility 
@@ -40,7 +37,7 @@ export function AboutMe(){
                                 you can find me grilling for my friends or with my nose 
                                 stuck in a book. I believe a good work life balance is 
                                 critical to being a top performing employee, and that proper 
-                                work - life boundaries benefit both employee and employer!
+                                boundaries benefit both employee and employer!
                             </p>
                         </div>
                     </div>
