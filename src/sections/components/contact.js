@@ -25,10 +25,10 @@ export function Contact(){
             <div>
                 <p className='reach-out'>You may also find me on these platforms!</p>
                 <div className='together'>
-                    <a target="_blank" href='https://github.com/Motter360' rel="noopener noreferrer">
+                    <a target="_blank" href='https://github.com/Motter360' rel="noopener noreferrer" className='space-around'>
                         <img className="github medium" src="/github-icon-dm.png" alt="github logo and link" />
                     </a>
-                    <a target="_blank" href='https://www.linkedin.com/in/thomas-hammon-063366290' rel="noopener noreferrer">
+                    <a target="_blank" href='https://www.linkedin.com/in/thomas-hammon-063366290' rel="noopener noreferrer" className='space-around'>
                         <img className="linkedin small"src="/linkedin-icon-dm.png" alt="linked in logo and link" />
                     </a>
                 </div>    
