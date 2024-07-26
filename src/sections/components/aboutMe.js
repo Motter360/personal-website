@@ -11,15 +11,13 @@ export function AboutMe(){
                     <div>   
                         <h3>Curious about me? Here you have it:</h3>
                         <div className='bio'>
-                            <p>I began my learning journey nearly a year and a half 
-                                ago, looking for a career path that was more engaging 
-                                and held better opportunities for growth. Since then, 
-                                I have pursued bootcamps, community coding groups, and 
-                                numerous personal projects to improve my skills. I have 
-                                accomplished much in my personal time in addition to 
-                                a full time job, and I believe the next step in my path
-                                is an internship or similar entry level position. I am 
-                                looking to further expand my skills and make 
+                            <p>I began my journey over two years ago, looking for a career 
+                                path that was more engaging and held better opportunities 
+                                for growth. Since then, I have pursued bootcamps, community 
+                                coding groups, and freelance web development jobs to improve my skills. 
+                                Though I have enjoyed getting to work as a freelancer,
+                                I have decided to pursue a more established position in the feild. 
+                                I am looking to further expand my skills and make 
                                 valuable contributions in a team oriented environment. 
                                 Passion for the project, good communication, and 
                                 learning opportunities are important to me.
