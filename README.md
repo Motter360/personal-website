@@ -4,6 +4,12 @@ Hello! Welcome to my personal website! It's been a long journey to get here, and
 
 Without further ado, the patch notes:
 
+patch 1.0.2 7/26/2024:
+- editied content under "About Me" to reflect my time as a freelancer
+- replaced my old resume with a newer, more professional one 
+- optimized the headshot image to load faster
+
+
 patch 1.0.1 10/30/2023:
 - edited content under "About Me" to be more concise
 - minor aesthetic changes to the mobile view
