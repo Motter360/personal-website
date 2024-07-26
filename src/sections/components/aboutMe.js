@@ -16,7 +16,7 @@ export function AboutMe(){
                                 for growth. Since then, I have pursued bootcamps, community 
                                 coding groups, and freelance web development jobs to improve my skills. 
                                 Though I have enjoyed getting to work as a freelancer,
-                                I have decided to pursue a more established position in the feild. 
+                                I have decided to pursue a more established position in the field. 
                                 I am looking to further expand my skills and make 
                                 valuable contributions in a team oriented environment. 
                                 Passion for the project, good communication, and 
