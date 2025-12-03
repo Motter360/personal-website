@@ -11,10 +11,10 @@ export function AboutMe(){
                     <div>   
                         <h3>Curious about me? Here you have it:</h3>
                         <div className='bio'>
-                            <p>I began my journey over two years ago, looking for a career 
+                            <p>I began my journey over three years ago, looking for a career 
                                 path that was more engaging and held better opportunities 
                                 for growth. Since then, I have pursued bootcamps, community 
-                                coding groups, and freelance web development jobs to improve my skills. 
+                                coding groups, and freelancing jobs to improve my skills. 
                                 Though I have enjoyed getting to work as a freelancer,
                                 I have decided to pursue a more established position in the field. 
                                 I am looking to further expand my skills and make 
@@ -33,9 +33,7 @@ export function AboutMe(){
                             </p>
                             <p id='final-say'>Finally, when I'm not working or pursuing a personal project,
                                 you can find me grilling for my friends or with my nose 
-                                stuck in a book. I believe a good work life balance is 
-                                critical to being a top performing employee, and that proper 
-                                boundaries benefit both employee and employer!
+                                stuck in a book. I'm looking forward to getting to work with you!
                             </p>
                         </div>
                     </div>

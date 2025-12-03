@@ -10,7 +10,7 @@ export function Intro(){
             </div>
             <div className='buffer'>
                 <h2 className='myName'>Hello, I'm Thomas 👋</h2>
-                <p>I'm a self-taught front end web developer (React) 
+                <p>I'm a front end web developer (React) 
                     looking to expand my horizons and grow my skill set. 
                     If you're looking for a self starter with a passion 
                     for learning and problem solving, I'm your guy. 
