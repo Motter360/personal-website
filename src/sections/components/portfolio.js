@@ -9,6 +9,7 @@ export function Portfolio(){
             <p className='section-title'>Portfolio</p>
                 <div className='flex column center buffer'>
                     {data.map(item => <Card 
+                            key={item.title}
                             src={item.src}
                             alt={item.alt}
                             title={item.title}
