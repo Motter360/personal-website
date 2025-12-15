@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Contact(){
     return(
-        <div id="contact" className='contact section dm-shade-1'>
+        <div id="contact" className='contact section dm-shade-2'>
             <p className='section-title'>Get In Touch</p>
             <p className='reach-out'>What's next? Feel free to reach out 
                 to me if you're looking for a developer, 

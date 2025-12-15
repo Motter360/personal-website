@@ -4,7 +4,7 @@ export function AboutMe(){
     return(
         <div id="about-me" className='about-me section dm-shade-2'>
             <p className='section-title'>About Me</p>
-                <div className='flex buffer'>
+                <div className='about-me-container buffer'>
                     <div>
                         <img className="fullbody" src="/fullbody.jpg" alt="Thomas standing infront of the Manhattan skyline"/>
                     </div> 

@@ -15,6 +15,7 @@ function Options(props){
                 <div className='row'>
                     <ul className='menu dm-shade-1'>
                         <li className='links'><a href='#about-me'>About</a></li>
+                        <li className='links'><a href='#portfolio'>Portfolio</a></li>
                         <li className='links'><a href='#contact'>Contact</a></li>
                     </ul>
                     <div className='download dm-shade-1'>

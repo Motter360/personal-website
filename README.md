@@ -1,8 +1,13 @@
-personal website v. 1.0.3, published 12/03/2025
+personal website v. 1.1.0, published 12/09/2025
 
 Hello! Welcome to my personal website! It's been a long journey to get here, and I'm so excited to share it with you. My philosophy has been to create the smallest piece of value I can, then push it to production as quickly as possible. As such, when you look through my code, you may find sections that are empty. Think of these as expansions yet to come! 
 
 Without further ado, the patch notes:
+
+patch 1.1.0 12/09/2025:
+- built and styled the card component
+- added portfolio data
+- added the portfolio section
 
 patch 1.0.3 12/03/2025:
 - editied content under the "aboutMe" and "intro" sections
